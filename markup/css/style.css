@@ -2,11 +2,6 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}html{height:100%;background:#fff}body{color:#000;font:15px/18px 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', Helvetica, Arial, sans-serif;margin:0 auto;min-height:100%;position:relative;background:#fff}
 a{color:#000;text-decoration:none;cursor:pointer;margin:0;padding:0;vertical-align:baseline;-webkit-tap-highlight-color:rgba(255,255,255,0.4)}a:hover{text-decoration:none}p{margin:0 0 15px}input,textarea,select{font:100% Arial,Helvetica,sans-serif;vertical-align:middle}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}figure{margin:0;padding:0}ul{list-style:none}blockquote,q{quotes:none}table{border-collapse:collapse;border-spacing:0;width:100%}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:10px 0;padding:0}#wrapper .mb0{margin-bottom:0}#wrapper .mb5{margin-bottom:5px}#wrapper .mb10{margin-bottom:10px}#wrapper .mb15{margin-bottom:15px}#wrapper .mb20{margin-bottom:20px}#wrapper .mb25{margin-bottom:25px}.errorMessage{color:#f00}
 /* styles */
-a.opacity:hover{
-	-moz-opacity:0.8;
-	filter:alpha(opacity:80);
-	opacity:0.8;
-}
 .holder{
 	max-width:980px;
 	margin:0 auto;
