@@ -1,7 +1,3 @@
-$(window).resize(function() {
-	if ($(window).width() <= 800) {
-	};
-});
 $(document).ready(initPage);
 function initPage(){
 	initSearch();
@@ -61,7 +57,7 @@ function swiperGallery(){
 		autoplayDisableOnInteraction: false,
 		loop: true
 	});
-	if($(window).width() <= 800){
+	if($(window).width() <= 782){
 		allGallery.swiperTeacher.destroy(true,true);
 		allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 	        nextButton: '.swiper-teacher .swiper-button-next',
@@ -85,7 +81,7 @@ function swiperGallery(){
 		});
 	}
 	$(window).resize(function(){
-		if($(window).width() <= 800){
+		if($(window).width() <= 782){
 			allGallery.swiperTeacher.destroy(true,true);
 			allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 		        nextButton: '.swiper-teacher .swiper-button-next',

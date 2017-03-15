@@ -698,6 +698,7 @@ nav ul ul li a{
 .botom-footer-banner a:first-child{margin:0 5px 0 0;}
 .botom-footer-banner a:last-child{margin:0 0 0 5px;}
 .menu{display:none;}
+.footer-list-holder{background:#f5fcff;}
 .sp{display:none !important;}
 .ps{display:block !important;}
 @media screen and (max-width: 1100px) {
