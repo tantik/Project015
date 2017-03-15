@@ -48,6 +48,13 @@ function swiperGallery(){
 		loop: true,
 		spaceBetween: 20
 	});
+	allGallery.swiperBanner = new Swiper('.swiper-footer-banner .swiper-container', {
+		pagination: '.swiper-footer-banner .swiper-pagination',
+		paginationClickable: true,
+		autoplay: 2500,
+		autoplayDisableOnInteraction: false,
+		loop: true
+	});
 	if($(window).width() <= 800){
 		allGallery.swiperTeacher.destroy(true,true);
 		allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
