@@ -36,7 +36,6 @@ function swiperGallery(){
 		nextButton: '.swiper-top .swiper-button-next',
 		prevButton: '.swiper-top .swiper-button-prev',
 		autoplay: 2500,
-		spaceBetween: 20,
 		autoplayDisableOnInteraction: false,
 		pagination: '.swiper-top .swiper-pagination',
 		paginationClickable: true,
@@ -58,7 +57,7 @@ function swiperGallery(){
 		autoplayDisableOnInteraction: false,
 		loop: true
 	});
-	if($(window).width() <= 782){
+	if($(window).width() <= 783){
 		allGallery.swiperTeacher.destroy(true,true);
 		allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 	        nextButton: '.swiper-teacher .swiper-button-next',
@@ -82,7 +81,7 @@ function swiperGallery(){
 		});
 	}
 	$(window).resize(function(){
-		if($(window).width() <= 782){
+		if($(window).width() <= 783){
 			allGallery.swiperTeacher.destroy(true,true);
 			allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 		        nextButton: '.swiper-teacher .swiper-button-next',
