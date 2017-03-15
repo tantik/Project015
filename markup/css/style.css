@@ -492,9 +492,9 @@ nav ul ul li a{
 .swiper-teacher .image img{
 	display:block;
 	overflow:hidden;
-	-moz-border-radius:172px;
-	-webkit-border-radius:172px;
-	border-radius:172px;
+	-moz-border-radius:600px;
+	-webkit-border-radius:600px;
+	border-radius:600px;
 	width:100%;
 	-moz-box-sizing:border-box;
 	-ms-box-sizing:border-box;
