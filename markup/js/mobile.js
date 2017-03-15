@@ -35,11 +35,18 @@ function swiperGallery(){
 	allGallery.swiperTop = new Swiper('.swiper-top .swiper-container', {
 		nextButton: '.swiper-top .swiper-button-next',
 		prevButton: '.swiper-top .swiper-button-prev',
-		autoplay: 2500,
+		autoplay: false, //2500
 		autoplayDisableOnInteraction: false,
 		pagination: '.swiper-top .swiper-pagination',
 		paginationClickable: true,
-		loop: true
+		loop: true,
+		loopedSlides:1,
+		slidesPerView:'auto',
+		preloadImages:true,
+		lazyLoading:true,
+		lazyLoadingInPrevNext:true,
+		lazyLoadingInPrevNextAmount:1,
+		loopAdditionalSlides:1
 	});
 	allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 		nextButton: '.swiper-teacher .swiper-button-next',
@@ -57,7 +64,7 @@ function swiperGallery(){
 		autoplayDisableOnInteraction: false,
 		loop: true
 	});
-	if($(window).width() <= 783){
+	if($(window).width() <= 800){
 		allGallery.swiperTeacher.destroy(true,true);
 		allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 	        nextButton: '.swiper-teacher .swiper-button-next',
@@ -81,7 +88,7 @@ function swiperGallery(){
 		});
 	}
 	$(window).resize(function(){
-		if($(window).width() <= 783){
+		if(window.innerWidth <= 800){
 			allGallery.swiperTeacher.destroy(true,true);
 			allGallery.swiperTeacher = new Swiper('.swiper-teacher .swiper-container', {
 		        nextButton: '.swiper-teacher .swiper-button-next',
