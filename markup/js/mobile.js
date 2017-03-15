@@ -36,6 +36,7 @@ function swiperGallery(){
 		nextButton: '.swiper-top .swiper-button-next',
 		prevButton: '.swiper-top .swiper-button-prev',
 		autoplay: 2500,
+		spaceBetween: 20,
 		autoplayDisableOnInteraction: false,
 		pagination: '.swiper-top .swiper-pagination',
 		paginationClickable: true,

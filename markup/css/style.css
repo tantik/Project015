@@ -317,6 +317,7 @@ nav ul ul li a{
 .swiper-top .swiper-container{
 	max-width:1180px;
 	margin:0 auto;
+	overflow:visible !important;
 }
 .swiper-top .swiper-slide img{
 	display:block;
@@ -1143,5 +1144,6 @@ nav ul ul li a{
 		padding-bottom:5px;
 	}
 	.swiper-footer-banner .swiper-pagination{bottom:0;}
+	.swiper-top .swiper-container{overflow:hidden !important;}
 }
 /* styles end */
